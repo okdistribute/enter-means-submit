@@ -1,0 +1,29 @@
+{
+  "name": "enter-means-submit",
+  "version": "1.0.0",
+  "description": "enter means submit for elements of this class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karissa/enter-means-submit.git"
+  },
+  "keywords": [
+    "html",
+    "forms",
+    "enter",
+    "input",
+    "keypress",
+    "key",
+    "press",
+    "down"
+  ],
+  "author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/karissa/enter-means-submit/issues"
+  },
+  "homepage": "https://github.com/karissa/enter-means-submit"
+}
