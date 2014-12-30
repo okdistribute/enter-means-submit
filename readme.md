@@ -24,7 +24,7 @@ enterMeansSubmit(forms)
 <div class="form">
   <input type="text" name="mytext" placeholder="enter your text..." />
   <button name="cancel-btn">Cancel</button>
-  <button type="submit" name="submit-btn" on-click="submit()">Submit</button>
+  <button type="submit" name="submit-btn" onclick="submit()">Submit</button>
 </input>
 ```
 

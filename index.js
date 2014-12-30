@@ -6,15 +6,16 @@ module.exports = function(els) {
   }
 }
 
-module.exports.
-
 function getSubmitTarget(el) {
-  var submitTarget = el.getElementsByTagName('button[type="submit"]')
-  if (submitTarget.length == 0) {
-    console.error('could not find corresponding button')
-    return false
+  var targets = el.getElementsByTagName('button')
+  for (var i = 0; i < targets.length; i++) {
+    var target = targets[i]
+    if (target.type == 'submit') {
+      return target
+    }
   }
-  return submitTarget[0]
+  console.error('could not find corresponding button')
+  return false
 }
 
 function enterMeansSubmit(el) {
