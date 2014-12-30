@@ -21,11 +21,11 @@ enterMeansSubmit(forms)
 ```
 
 ```html
-<div class="form">
+<div class="form enter-means-submit">
   <input type="text" name="mytext" placeholder="enter your text..." />
   <button name="cancel-btn">Cancel</button>
   <button type="submit" name="submit-btn" onclick="submit()">Submit</button>
-</input>
+</div>
 ```
 
 Typing "enter" in the ```input``` element triggers a click event for the button with ```type="submit"```. In this example, ```submit()``` would be called.
