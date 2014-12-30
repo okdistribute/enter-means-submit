@@ -1,6 +1,9 @@
 var ENTER_KEY = 13;
 
 module.exports = function(els) {
+  if (!els) return
+  if (!els.length) return enterMeansSubmit(els)
+
   for (var i = 0; i < els.length; ++i) {
     enterMeansSubmit(els[i]);
   }

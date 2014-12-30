@@ -1,6 +1,6 @@
 {
   "name": "enter-means-submit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "enter means submit for elements of this class",
   "main": "index.js",
   "scripts": {
