@@ -28,7 +28,7 @@ enterMeansSubmit(forms)
 </input>
 ```
 
-Typing "enter" in the ```input``` element triggers a click event for the button with ```type="submit"````. In this example, ```submit()``` would be called.
+Typing "enter" in the ```input``` element triggers a click event for the button with ```type="submit"```. In this example, ```submit()``` would be called.
 
 
 
