@@ -22,6 +22,8 @@ function getSubmitTarget(el) {
 }
 
 function enterMeansSubmit(el) {
+  if (!el || !el.getElementsByTagName) return
+
   var inputs = el.getElementsByTagName("input")
   for (var i = 0; i < inputs.length; i++) {
     var input = inputs[i]
